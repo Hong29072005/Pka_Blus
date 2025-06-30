@@ -12,12 +12,12 @@ import img8 from '../Image/M9.jpeg'
 
 const MeteKa = () => {
 
-    const data =[
-        
+    const data = [
+
         { img: img1 },
         { img: img2 },
         { img: img3 },
-        { img: img4} ,
+        { img: img4 },
         { img: img5 },
         { img: img6 },
         { img: img7 },
@@ -31,17 +31,17 @@ const MeteKa = () => {
                 <h1 className='text-center font-Dangrek text-pink-500 text-4xl mt-10'>មាតិការ</h1>
             </div>
             <div className='mt-4 max-w-[70%] lg:max-w-3xl mx-auto bg-gray-200'>
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-4'>
+                <div className='grid grid-cols-1 px-5 lg:px-0 lg:grid-cols-3 gap-4'>
                     {
-                        data.map((item)=>(
-                        <div className='w-[15.8rem] h-[20rem] shadow-md p-4'>
-                            <img src={item.img} alt="" />
-                        </div>
+                        data.map((item) => (
+                            <div className='w-[15.8rem] h-[20rem] shadow-md p-8'>
+                                <img src={item.img} alt="" />
+                            </div>
                         ))
                     }
-                   
+
                 </div>
-                
+
             </div>
         </>
     )
