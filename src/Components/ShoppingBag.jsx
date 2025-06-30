@@ -23,7 +23,7 @@ const ShoppingBag = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-between gap-2 sm:flex sm:flex-col'>
+                <div className='flex justify-between gap-2 flex-col lg:flex-row'>
                     <div>
                         <div>
                             <h1 className='text-2xl font-Jost font-semibold'>Buyer Information</h1>
