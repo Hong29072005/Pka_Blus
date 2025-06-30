@@ -91,7 +91,7 @@ const Card = () => {
                     {
 
                         data.map((item) => (
-                            <div className='w-[15.8rem] h-[24rem] shadow-md'>
+                            <div className='w-[17rem] h-[25rem] shadow-md'>
                                 <img className='' src={item.img} alt="" />
                                 <div  className={`${change ? 'hidden' : 'inline-block'} px-2 flex justify-between`}>
                                     <h1 className='font-Dangrek text-2xl text-pink-500'>{item.name}</h1>

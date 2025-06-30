@@ -37,7 +37,7 @@ const Card1 = () => {
                     {
 
                         data.map((item) => (
-                            <div className='w-[15.8rem] h-[28rem] shadow-md'>
+                            <div className='w-[17rem] h-[29rem] shadow-md'>
                                 <img className='' src={item.img} alt="" />
                                 <div className={` px-2 flex justify-between`}>
                                     <h1 className='font-Dangrek text-2xl text-pink-500'>{item.name}</h1>
