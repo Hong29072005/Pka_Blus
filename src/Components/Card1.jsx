@@ -50,7 +50,7 @@ const Card1 = () => {
                                 <div className='p-2'>
                                     <button onClick={() => setOpen(true)} className={`${open ? 'hidden' : 'inline-block'} mt-2 text-white font-Siemreap text-xl py-2 px-6 bg-pink-500 rounded-md w-full `}>ដាក់ចួលថង</button>
                                 </div>
-                                <div className={`${open ? 'inline-block' : 'hidden'} px-3 mt-5`}>
+                                <div className={`${open ? 'inline-block' : 'hidden'} px-5 mt-5`}>
                                     <button onClick={() => setCount(count - 1)} className='px-4 py-2 shadow-md text-xl'>
                                         -
                                     </button>
